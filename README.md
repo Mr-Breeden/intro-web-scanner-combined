@@ -54,9 +54,6 @@ python3 intro-web.py -u target.com
 ## ⚠️ Disclaimer
 This tool is intended for legal security testing and educational purposes only. Ensure you have **permission** before scanning any target.
 
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).
-
 ## 🤝 Contributing
 Pull requests and suggestions are welcome!
 
