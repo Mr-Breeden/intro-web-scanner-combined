@@ -29,20 +29,10 @@ python3 intro-web.py -u target.com
 3. Ensure the required tools are installed:
    ```bash
    sudo apt update && sudo apt install nmap amass wafw00f -y
-
-   #Passive online subdomain enumeration
    go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-
-   #Find domains and subdomains potentially related to a given domain. 
-    go install github.com/tomnomnom/assetfinder@latest
-
-   #Take a list of domains and probe for working http and https servers.
+   go install github.com/tomnomnom/assetfinder@latest
    go install github.com/tomnomnom/httprobe@latest
-
-   #Nuclei for vulnerability scanning
    go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
-
-   #SHCheck.py for headers
    git clone https://github.com/s0md3v/SHCheck && cd SHCheck && pip install -r requirements.txt
    ```
 
