@@ -30,6 +30,16 @@ python3 intro-web.py -u target.com
    ```bash
    sudo apt install subfinder assetfinder amass httprobe wafw00f nmap nuclei
    ```
+How to Install All Required Tools
+```For Linux/macOS:
+sudo apt update && sudo apt install nmap amass wafw00f -y
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install github.com/tomnomnom/assetfinder@latest
+go install github.com/tomnomnom/httprobe@latest
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+git clone https://github.com/s0md3v/SHCheck && cd SHCheck && pip install -r requirements.txt
+This ensures that wafw00f is installed via apt instead of pip. Let me know if you need further modifications! 🚀
+```
 
 ## 🔍 How It Works
 1. **Ensures HTTPS format** for URL consistency.
